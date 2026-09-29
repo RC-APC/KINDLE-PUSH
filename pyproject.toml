@@ -1,2 +1,11 @@
+[project]
+name = "kindle-push-backend"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.110.0",
+]
+
 [tool.vercel]
 entrypoint = "api.send:app"
+
