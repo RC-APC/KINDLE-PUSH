@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "functions": {
+    "api/send.py": { "maxDuration": 60, "memory": 1024 }
+  }
+}
